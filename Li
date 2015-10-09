@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int a,b,sum;
+            Console.Write("请输入两个整数：");
+            a = Convert.ToInt32(Console.ReadLine());
+            b = Convert.ToInt32(Console.ReadLine());
+
+            sum = a * a + b * b;
+            Console.WriteLine("这两个数的平方和为：{0}", sum);
+            Console.Read();
+        }
+    }
+}
